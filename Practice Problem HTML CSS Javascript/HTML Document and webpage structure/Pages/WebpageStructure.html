@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        ul {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          flex-flow:column wrap;          
+          overflow: hidden;
+          background-color:palevioletred ;
+        }
+        
+        li {
+          float: left;
+        }
+        
+        li a {
+          display: block;
+          color: white;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+        }
+        
+        li a:hover:not(.active) {
+          background-color: #111;
+        }
+        
+        .active {
+          background-color: #04AA6D;
+        }
+        </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../Images/icon.png">
+    <link rel="stylesheet" href="../css/WebpageLayout.css">
+    <title>Webpage Structure</title>
+</head>
+<body>    
+    <ul>
+        <li><a class="active" href="#home">Home</a></li>
+        <li><a href="#news">News</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#about">About</a></li>
+      </ul> 
+ 
+      <div id="main">
+    <article><b><i>Article Heading</i></b></article>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia sapiente aperiam voluptates omnis beatae modi tenetur explicabo earum ipsum, labore ipsa quod ut accusamus voluptas iste aspernatur veritatis maiores doloremque.</p> 
+    
+    
+    <aside class="Related"><b><i>Related</i></b> <ul> <!-- List Tag with Ordered List Unordered List -->
+        <div class="Fcolor">
+        <li>Oh I do like to be beside the seaside</li><!-- List Item -->
+        <li>Oh I do like to be beside the sea</li>
+        <li>Although in the North of England</li>
+        <li>It never stops raining</li>
+        <li>Oh well...</li>
+    </div>
+        
+    </ul></aside>
+    
+  </div>
+  <footer>Footer</footer>
+    
+</body>
+</html>

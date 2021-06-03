@@ -1,0 +1,70 @@
+body{
+    padding: 20m;
+}
+.HeaderContainer{
+    display:flex;
+    flex-flow:column wrap;
+    align-content: center;
+    background: tomato;
+    font-weight: bold;
+    padding: 10px;
+
+}
+.FooterContainer{
+    display:flex;
+    flex-flow:column wrap;
+    align-content: center;
+    background: lightgreen;
+    font-weight:bold;
+    padding: 10px;
+
+}
+.MainContainer{
+    display: flex;
+    font-weight: bold;
+    flex-flow: row wrap;
+    text-align: center;
+}
+.MainContainerItem{
+    background: deepskyblue;
+    text-align: left;
+    order: 2;
+    
+ 
+}
+article{
+    padding: 10px;
+    margin: 10px;
+    background: aqua;
+}
+h1{
+    font-size: 1.17em;
+}
+h2{
+    font-size: 1.17em;
+}
+h3{
+    font-size: 1.17em;
+}
+h4{
+    font-size: 1.17em;
+}
+.sideBarLeftItem{
+    background: gold;
+    order: 1;
+
+}
+.sideBarRightItem{
+    background: hotpink;
+    order: 3;
+}
+.sideBaritem{
+    flex: 1 0 0;
+    border: 0px solid green;
+}
+
+.MainContainerItem{
+    flex: 2 0px;
+}
+
+

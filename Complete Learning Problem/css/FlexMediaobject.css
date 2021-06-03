@@ -1,0 +1,36 @@
+.media {
+    display: flex;
+    align-items: flex-start;
+    background: #bebcb6;
+    padding: 1em;
+    border-radius: 3px;
+    max-width: 24em;
+  }
+  .media-object {
+    margin-right: 1em;
+    max-height: 150px;
+max-width: 200px;
+width: 120px;
+height: 120px;
+  }
+  .media-body {
+    flex: 1;
+  }
+  .media-heading {
+    margin: 0 0 .5em;
+  }
+
+  .circular--landscape {
+    display: inline-block;
+    position: relative;
+    width: 120px;
+    height: 120px;
+    overflow: hidden;
+    border-radius: 50%;
+  }
+  
+  .circular--landscape img {
+    width: auto;
+    height: 100%;
+    margin-left: -50px;
+  }
