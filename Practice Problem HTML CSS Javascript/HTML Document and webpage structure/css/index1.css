@@ -1,0 +1,144 @@
+* {
+    box-sizing: border-box; 
+  }
+  body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    margin: 0;
+    background-color: lightgrey;
+
+  }
+  #main {
+    display: flex;
+    flex: 1;
+    margin: 0px;
+  }
+  #main > article {
+    flex: 1;
+    order: 1;
+    margin: 0px;
+
+  }
+  #main > nav, 
+  #main > aside {
+    flex: 0 0 15vw;
+    margin: 2px;
+
+  }
+  #main > nav {
+    background: #FF1493;
+    order: 3;
+    margin: 2px;
+  }
+  #main > aside {
+    background: beige;
+    order: 2;
+    margin: 2px;
+  }
+  header {
+background-color: #CD1076
+    height: 20vh;
+
+  }
+  header, footer, article, nav {
+    padding: 1em;
+    margin: 12px;
+  }
+
+footer{
+  display: flex;
+  background-color: white;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+nav #para1 ul a {
+    
+    display: block;
+          color: blue;
+          line-height: 30px;
+          text-decoration: underline;
+          font-size: 17px;
+        
+}
+
+
+nav #para1 ul  a:hover:not(.active) {
+                    text-decoration: underline;
+                    color: blue;
+        }
+
+  nav #related{
+    font-family:Arial Black ;
+    font-weight: bold;
+    font-size: 30px;
+   font-style: italic;
+   text-align: center;
+  }
+
+  #main > article #article_head{
+
+    font-family:Arial Black ;
+    font-weight: bold;
+    font-size: 30px;
+   font-style: italic;
+   text-align: center;
+  }
+
+  #head{
+    font-family:Arial Black ;
+    font-weight: bold;
+    font-size: 30px;
+   font-style: italic;
+   text-align: center;
+  }
+
+  
+
+.f-container{
+  height: 100vh; /* for shorter content */
+  display: flex;
+  flex-direction: column;
+    
+  /*ie10*/
+  display: -ms-flexbox;
+  -ms-flex-direction: column;
+  margin-left:20px;
+  margin-right: 20px;
+}
+
+
+
+header{
+  background-color: #FF1493;
+  flex-basis: 50px;
+  
+  /*ie10*/
+  -ms-flex-preferred-size: 50px;
+  
+  /*center align of links*/
+  display: flex;
+  align-items: center; /*vertical*/
+  justify-content: space-around; /*or space-between*/
+  /*ie10*/
+  display: -ms-flexbox;
+  -ms-flex-align: center; /*vertical*/
+  -ms-flex-line-pack: distribute; /*or justify*/
+}
+
+header li{
+  list-style-type: none;
+}
+
+
+header  #text_box {
+  width:230px;margin: 0px;height: 26px;
+      background: #fff;
+}
+
+header #button_info{
+  background-color: black;
+  color: white;
+  height: 26px;
+  width: 100px;
+}
